@@ -1,0 +1,39 @@
+enableGitInfo = true
+enableRobotsTXT = true
+footnoteReturnLinkContents = "↩"
+paginatePath = ""
+pluralizeListTitles = false
+
+languageCode = "ja"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+
+theme = "ran"
+baseURL = "https://39lab.net"
+title = "さくらぼろぐ"
+
+[params]
+#description = ""
+#favicon = ""
+#logo = ""
+thumbnail = "https://res.cloudinary.com/z2/f_auto,q_auto,co_rgb:333,l_text:Sawarabi%20Gothic_50_bold:さくらぼろぐ,w_500,c_fit/ogp"
+
+[params.author]
+name = "さくらぼ"
+url = "https://39lab.net"
+#twitter = ""
+github = "39lab"
+
+[[menus.main]]
+weight = 1
+name = "About"
+url = "/about"
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+page = ["HTML", "AMP"]
+
+[markup.highlight]
+codeFences = false
